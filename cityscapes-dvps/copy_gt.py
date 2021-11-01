@@ -8,7 +8,7 @@ parser.add_argument('--split', type=str, default='train')
 args = parser.parse_args()
 split = args.split
 
-src_dir = os.path.join('vps/data/cityscapes_vps', split, 'panoptic_inst')
+src_dir = os.path.join('/mnt/test2fs/dataset/cityscapes_vps', split, 'panoptic_inst')
 dst_dir = os.path.join('gtFine', split)
 
 
